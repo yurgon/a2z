@@ -23,7 +23,7 @@ module A2z
     
     params 'AssociateTag' => -> { tag },
            'Service'      => 'AWSECommerceService',
-           'Version'      => '2011-08-01'
+           'Version'      => '2013-08-01'
     
     def initialize(opts = {})
       self.country  = opts.fetch(:country, :us)
